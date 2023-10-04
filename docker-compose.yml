@@ -2,6 +2,8 @@
 version: "2.1"
 services:
   webtop:
+    labels:
+    shipyard.route: '/'
     image: lscr.io/linuxserver/webtop:ubuntu-xfce
     container_name: webtop
     security_opt:
