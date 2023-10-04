@@ -1,5 +1,5 @@
 FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy
-USER raffi
+USER 10001
 # set version label
 ARG BUILD_DATE
 ARG VERSION
